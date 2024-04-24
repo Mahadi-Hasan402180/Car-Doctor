@@ -1,25 +1,25 @@
 
+import { Link } from 'react-router-dom';
 import logo from '../../../assets/logo.svg'
 const Footer = () => {
     return (
-        <footer className="footer p-10 bg-base-200 text-base-content">
+        <footer className="footer mt-8 p-10 bg-black text-white">
   <aside>
     <img src={logo} alt="" />
-    <p>ACME Industries Ltd.<br/>Providing reliable tech since 1992</p>
+    <p>Car-doctor Industries Ltd.<br/>Providing reliable tech since 2000</p>
   </aside> 
   <nav>
     <h6 className="footer-title">Services</h6> 
-    <a className="link link-hover">Branding</a>
-    <a className="link link-hover">Design</a>
-    <a className="link link-hover">Marketing</a>
-    <a className="link link-hover">Advertisement</a>
+    <Link to='/' className="link link-hover">Branding</Link>
+    <Link to='/' className="link link-hover">Marketing</Link>
+    <Link to='/' className="link link-hover">Design</Link>
+    
   </nav> 
   <nav>
     <h6 className="footer-title">Company</h6> 
-    <a className="link link-hover">About us</a>
-    <a className="link link-hover">Contact</a>
-    <a className="link link-hover">Jobs</a>
-    <a className="link link-hover">Press kit</a>
+    <Link to='/about' className="link link-hover">About us</Link>
+    <Link to='/contact' className="link link-hover">Contact</Link>
+    <Link to='/' className="link link-hover">Jobs</Link>
   </nav> 
   <nav>
     <h6 className="footer-title">Legal</h6> 

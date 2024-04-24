@@ -15,11 +15,11 @@ const Services = () => {
   return (
     <div>
       <div className="text-center">
-        <h2 className="py-4 mt-4 text-5xl font-black text-blue-700">
+        <h2 className="py-4 mt-4 border-2 mb-2 border-y-blue-300 text-5xl font-black text-blue-700">
           Our Service Area
         </h2>
-        <p>
-          the majority have suffered alteration in some form, by injected
+        <p className="font-semibold">
+          The majority have suffered alteration in some form, by injected
           humour, or randomized <br /> words which do not look even slightly
           believable.
         </p>
