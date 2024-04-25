@@ -8,6 +8,7 @@ import PrivateRoutes from "./PrivateRoutes";
 import CheckOut from "../pages/CheckOut/CheckOut";
 import AboutUs from "../pages/AboutUs/AboutUs";
 import Contact from "../pages/Contact/Contact";
+import Appointment from "../pages/Appointment/Appointment";
 
 
 
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
         {
           path: "/contact",
           element:<Contact></Contact> ,
+        },
+        {
+          path: "/appointment",
+          element:<PrivateRoutes><Appointment></Appointment></PrivateRoutes> ,
         },
 
 

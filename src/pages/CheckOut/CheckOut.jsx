@@ -51,7 +51,7 @@ const CheckOut = () => {
   }
   return (
     <div>
-      <h2 className="text-center text-4xl font-semibold my-6">Book Services:{title}</h2>
+      <h2 className="text-center text-4xl font-semibold my-6">Booking Services:{title}</h2>
 
       <form onSubmit={handleBookService}>
 
@@ -111,10 +111,7 @@ const CheckOut = () => {
         </div>
         </div>
 
-        <div className="my-10">
-        <textarea placeholder="Your massage" className="textarea textarea-bordered textarea-lg w-full" ></textarea>
-
-        </div>
+        
 
         <div className="form-control mt-6">
           <input

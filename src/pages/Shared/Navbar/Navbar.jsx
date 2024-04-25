@@ -69,8 +69,8 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <Link to="/signUp" className="btn btn-outline btn-primary">Appointment</Link>
-      {/* <button className="btn btn-outline btn-primary">Appointment</button> */}
+        <Link to="/appointment" className="btn btn-outline btn-primary">Appointment</Link>
+       {/* <button className="btn btn-outline btn-primary">Appointment</button>  */}
       </div>
     </div>
   );
