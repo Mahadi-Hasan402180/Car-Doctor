@@ -2,6 +2,50 @@
 
 
 const Appointment = () => {
+
+    const handleAppointment = event =>{
+        event.preventDefault();
+        const form = event.target;
+        const name = form.name.value;
+        const service = form.service.value;
+        const date = form.date.value;
+        const email = form.email.value;
+        const phone = form.phone.value;
+        const price = form.price.value;
+    
+        const booking = {
+         name,
+          date,
+          email,
+          phone,
+          service,
+          price
+          
+        }
+        console.log(booking);
+        fetch('http://localhost:5000/appointment', {
+
+      method:"POST",
+
+      headers:{
+
+        'content-type':'application/json'
+
+      },
+
+      body: JSON.stringify(booking)
+    })
+    .then(res => res.json())
+    .then(data =>{
+      console.log(data);
+       if(data.insertedId){
+         alert('Data Inserted Successfully')
+       }
+
+    })
+
+    }
+
   return (
     <div>
       <div className="bg-gray-50 p-4 rounded-md">
@@ -9,7 +53,7 @@ const Appointment = () => {
           Book an Car Appointment
         </h2>
 
-        <form>
+        <form onSubmit={handleAppointment}>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="form-control">
               <label className="label">
@@ -70,7 +114,7 @@ const Appointment = () => {
               </label>
               <input
                 type="text"
-                name="name"
+                name="service"
                 placeholder=" Service Name"
                 className="input input-bordered"
                 required
@@ -79,11 +123,11 @@ const Appointment = () => {
 
             <div className="form-control">
               <label className="label">
-                <span className="label-text">Price</span>
+                <span className="label-text">Service Charge</span>
               </label>
               <input
-                type="number"
-                placeholder="Price"
+                type="price"
+                placeholder="Service Charge"
                 name="price"
                 className="input input-bordered"
                 required
@@ -94,6 +138,8 @@ const Appointment = () => {
           <div className="my-10">
             <textarea
               placeholder="Your massage"
+              type ="text"
+              name ="deals"
               className="textarea textarea-bordered textarea-lg w-full"
             ></textarea>
           </div>
