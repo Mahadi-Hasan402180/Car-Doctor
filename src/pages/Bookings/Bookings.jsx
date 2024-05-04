@@ -63,13 +63,13 @@ const Bookings = () => {
 
   return (
     <div>
-      <h2 className="text-3xl">Your Bookings:{bookings.length}</h2>
+      <h2 className="text-center  my-12 py-4 mt-4 border-2 mb-8 border-y-blue-300 text-4xl font-black text-blue-700 ">Your Bookings:{bookings.length}</h2>
 
       <div className="overflow-x-auto">
         <table className="table">
           {/* head */}
-          <thead>
-            <tr>
+          <thead className="">
+            <tr className="text-xl text-green-600  border-rose-700 border-2 border-y-4">
               <th>
                 Delete
               </th>

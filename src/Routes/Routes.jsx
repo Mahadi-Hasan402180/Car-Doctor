@@ -9,6 +9,10 @@ import CheckOut from "../pages/CheckOut/CheckOut";
 import AboutUs from "../pages/AboutUs/AboutUs";
 import Contact from "../pages/Contact/Contact";
 import Appointment from "../pages/Appointment/Appointment";
+import Appointments from "../Appointments/Appointments";
+import UpdateAppo from "../Appointments/UpdateAppo";
+
+
 
 
 
@@ -50,11 +54,27 @@ const router = createBrowserRouter([
           path: "/contact",
           element:<Contact></Contact> ,
         },
+
         {
           path: "/appointment",
           element:<PrivateRoutes><Appointment></Appointment></PrivateRoutes> ,
         },
 
+       
+
+        {
+          path: "/appointments",
+          element:<Appointments></Appointments>,
+          loader:({params})=>fetch(`http://localhost:5000/appointment/${params.id}`)
+        },
+
+        {
+          path:'/update/:id',
+          element:<UpdateAppo></UpdateAppo>,
+          loader:({params})=>fetch(`http://localhost:5000/appointments/${params.id}`)
+        }
+
+       
 
 
        

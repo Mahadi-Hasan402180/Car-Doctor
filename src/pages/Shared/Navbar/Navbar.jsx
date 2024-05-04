@@ -17,12 +17,14 @@ const Navbar = () => {
     const naveItems = 
     <>
     <li><Link to = "/">Home</Link></li>
-    <li><Link to = "/about">About</Link></li>
+    <li><Link to = "/appointments">Bookings Appointments</Link></li>
+    
     <li><Link to = "/contact">Contact</Link></li>
     
     {user?.email?<>
 
-      <li><Link to = "/bookings">My Bookings</Link></li>
+      <li><Link to = "/bookings">Bookings Service</Link></li>
+      <li><Link to = "/about">About</Link></li>
       <li><button onClick={handleLogOut}>Log out</button></li>
     
     </>:

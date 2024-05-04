@@ -1,10 +1,12 @@
+
+
 const BookingRow = ({ booking ,handleDelete,handleBookingConfirm}) => {
   const { CustomerName, price, service, CustomerPhone, email, date, img,_id,status } = booking;
      
     
 
   return (
-    <tr>
+    <tr className=" border-rose-200 border-2 border-y-2 text-md">
       <th>
         <button onClick={()=>handleDelete(_id)} className="btn btn-sm btn-circle">
           <svg
