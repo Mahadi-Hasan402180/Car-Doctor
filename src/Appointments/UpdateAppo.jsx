@@ -19,7 +19,7 @@ const UpdateAppo = () => {
 
         const updateAppointmentUser = {name,date,phone,email,service};
 
-        fetch(`http://localhost:5000/appointments/${loadedData._id}`,{
+        fetch(`https://car-doctor-server-dusky-theta.vercel.app/appointments/${loadedData._id}`,{
       method:'PUT',
       headers:{
 

@@ -10,7 +10,7 @@ const Appointments = () => {
   const [appointments, setAppointments] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:5000/appointment')
+    fetch('https://car-doctor-server-dusky-theta.vercel.app/appointment')
       .then((res) => res.json())
       .then((data) => setAppointments(data));
   }, []);
@@ -19,7 +19,7 @@ const Appointments = () => {
   const handleDelete = id =>{
     const proceed = confirm('are you sure want to delete');
     if(proceed){
-      fetch(`http://localhost:5000/appointment/${id}`,{
+      fetch(`https://car-doctor-server-dusky-theta.vercel.app/appointment/${id}`,{
         method:'DELETE'
       })
       .then(res=>res.json())

@@ -24,7 +24,7 @@ const Appointment = () => {
           
         }
         console.log(booking);
-        fetch('http://localhost:5000/appointment', {
+        fetch('https://car-doctor-server-dusky-theta.vercel.app/appointment', {
 
       method:"POST",
 

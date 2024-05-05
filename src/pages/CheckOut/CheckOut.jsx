@@ -30,7 +30,7 @@ const CheckOut = () => {
     };
     console.log(booking);
 
-    fetch("http://localhost:5000/bookings", {
+    fetch("https://car-doctor-server-dusky-theta.vercel.app/bookings", {
       method: "POST",
 
       headers: {
