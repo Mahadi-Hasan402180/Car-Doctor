@@ -11,6 +11,7 @@ import Contact from "../pages/Contact/Contact";
 import Appointment from "../pages/Appointment/Appointment";
 import Appointments from "../Appointments/Appointments";
 import UpdateAppo from "../Appointments/UpdateAppo";
+import Products from "../Products/Products";
 
 
 
@@ -49,6 +50,12 @@ const router = createBrowserRouter([
           path: "/about",
           element:<AboutUs></AboutUs> ,
         },
+
+        {
+          path: "/product",
+          element:<Products></Products> ,
+        },
+
 
         {
           path: "/contact",

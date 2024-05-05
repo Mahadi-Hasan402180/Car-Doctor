@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "Car Engine Plug",
+        "price": "$120.99",
+        "img": "https://i.ibb.co/9sX3D4k/6.png"
+    },
+    {
+        "id": 2,
+        "title": "Car Air Filter",
+        "price": "$119.99",
+        "img": "https://i.postimg.cc/Sx0MxhV1/3.png"
+    },
+    {
+        "id": 3,
+        "title": "Tire Pressure Gauge",
+        "price": "$150.49",
+        "img": "https://i.postimg.cc/9MN455rp/1.png"
+    },
+    {
+        "id": 4,
+        "title": "Cools Led Light",
+        "price": "$29.99",
+        "img": "https://i.postimg.cc/3rVythMr/2.png"
+    },
+    {
+        "id": 5,
+        "title": "Tire",
+        "price": "$90.99",
+        "img": "https://i.postimg.cc/ZqwnptFS/5.png"
+    },
+    {
+        "id": 6,
+        "title": "Battery",
+        "price": "$64.99",
+        "img": "https://i.postimg.cc/HnXMCYFg/4.png"
+    },
+    {
+        "id": 7,
+        "title": "Axle",
+        "price": "$240.99",
+        "img": "https://i.ibb.co/pr6q54P/17-Axel-01-800x356.png"
+    },
+    {
+        "id": 8,
+        "title": "Piston",
+        "price": "$124.99",
+        "img": "https://i.ibb.co/gtqzy75/18-Piston-01-800x356.png"
+    },
+    {
+        "id": 9,
+        "title": " Oil Filter",
+        "price": "$94.99",
+        "img": "https://i.ibb.co/kMmNgs5/20-Oil-filter-01-800x356.png"
+    }
+]
