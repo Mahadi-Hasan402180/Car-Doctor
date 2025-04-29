@@ -2,6 +2,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import img from '../../assets/images/login/login.svg';
 import { useContext, useState } from 'react';
 import { AuthContext } from '../../providers/AuthProviders';
+import { updateProfile } from 'firebase/auth'; 
 
 const SignUp = () => {
     const { createUser, googleSignIn } = useContext(AuthContext);
@@ -21,10 +22,20 @@ const SignUp = () => {
         createUser(email, password)
             .then(result => {
                 const user = result.user;
-                console.log(user);
-                navigate('/');
+                console.log('User Created:', user);
+
+          
+                updateProfile(user, {
+                    displayName: name,
+                    photoURL: image
+                })
+                .then(() => {
+                    console.log('Profile Updated');
+                    navigate('/'); 
+                })
+                .catch(error => console.error('Profile update error:', error));
             })
-            .catch(error => console.log(error));
+            .catch(error => console.error('Signup error:', error));
     };
 
     const handleGoogleSignUp = () => {
@@ -68,7 +79,7 @@ const SignUp = () => {
                             <input type="password" name='password' placeholder="Your Password" className="input input-bordered" required />
                         </div>
 
-                        {/* Image URL input */}
+                      
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">Profile Image URL</span>
