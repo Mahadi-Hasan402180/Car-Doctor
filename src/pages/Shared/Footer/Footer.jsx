@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import logo from '../../../assets/logo.svg'
 const Footer = () => {
     return (
-        <footer className="footer mt-16 p-10 bg-black text-white">
+        <div className=''>
+          <footer className="footer  mt-16 p-10 bg-black  text-white">
   <aside>
     <img src={logo} alt="" />
     <p>Car-doctor Industries Ltd.<br/>Providing reliable tech since 2000</p>
@@ -27,7 +28,8 @@ const Footer = () => {
     <a className="link link-hover">Privacy policy</a>
     <a className="link link-hover">Cookie policy</a>
   </nav>
-</footer>
+        </footer>
+        </div>
     );
 };
 

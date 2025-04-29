@@ -30,7 +30,7 @@ const CheckOut = () => {
     };
     console.log(booking);
 
-    fetch("https://car-doctor-server-dusky-theta.vercel.app/bookings", {
+    fetch("https://car-doctor-server-one-flame.vercel.app/bookings", {
       method: "POST",
 
       headers: {

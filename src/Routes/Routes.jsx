@@ -38,7 +38,7 @@ const router = createBrowserRouter([
         {
           path:'checkout/:id',
           element:<PrivateRoutes><CheckOut></CheckOut></PrivateRoutes>,
-          loader:({params})=>fetch(`https://car-doctor-server-dusky-theta.vercel.app/services/${params.id}`)
+          loader:({params})=>fetch(`https://car-doctor-server-one-flame.vercel.app/services/${params.id}`)
         },
 
         {
@@ -71,14 +71,14 @@ const router = createBrowserRouter([
 
         {
           path: "/appointments",
-          element:<Appointments></Appointments>,
-          loader:({params})=>fetch(`https://car-doctor-server-dusky-theta.vercel.app/appointment/${params.id}`)
+          element:<PrivateRoutes><Appointments></Appointments></PrivateRoutes>,
+          loader:({params})=>fetch(`https://car-doctor-server-one-flame.vercel.app/appointment/${params.id}`)
         },
 
         {
           path:'/update/:id',
           element:<UpdateAppo></UpdateAppo>,
-          loader:({params})=>fetch(`https://car-doctor-server-dusky-theta.vercel.app/appointments/${params.id}`)
+          loader:({params})=>fetch(`https://car-doctor-server-one-flame.vercel.app/appointments/${params.id}`)
         }
 
        

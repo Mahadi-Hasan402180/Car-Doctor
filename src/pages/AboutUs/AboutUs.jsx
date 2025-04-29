@@ -51,87 +51,33 @@ const AboutUs = () => {
       <div className="card bg-base-100 shadow-xl">
         <figure className="px-10 pt-10">
           <img
-            src="https://i.ibb.co/9ycCV5B/434648788-957034972617840-6606693853116049107-n.jpg"
+            src="https://i.ibb.co.com/XkvGrBj4/siam.jpg"
             alt="man"
             className="rounded-xl"
           />
         </figure>
         <div className="card-body items-center text-center">
-          <h2 className="card-title font-bold text-blue-700 ">Arman Hossain</h2>
-          <p className="text-red-900 font-semibold">ID:41220100097</p>
+          <h2 className="card-title font-bold text-blue-700 ">Sheike Shiam Sharif</h2>
+          <p className="text-red-900 font-semibold">ID:41220100032</p>
            <h2 className="text-orange-700 font-semibold">UI/UX designer</h2>
         </div>
       </div>
+
       <div className="card bg-base-100 shadow-xl">
         <figure className="px-10 pt-10">
           <img
-            src="https://i.ibb.co/6ZxDMWt/434928360-722825573338875-1214634442923364732-n.jpg"
+            src="https://i.ibb.co.com/QDgGvJd/istockphoto-1218623873-1024x1024.jpg"
             alt="man"
             className="rounded-xl"
           />
         </figure>
         <div className="card-body items-center text-center">
-          <h2 className="card-title font-bold text-blue-700 ">Majeda Akter Babli</h2>
-          <p className="text-red-900 font-semibold">ID:412201000101</p>
+          <h2 className="card-title font-bold text-blue-700 ">Sanda Khatun</h2>
+          <p className="text-red-900 font-semibold">ID:41220100050</p>
           <h2 className="text-orange-700 font-semibold">UI/UX designer</h2>
         </div>
       </div>
-      <div className="card bg-base-100 shadow-xl">
-        <figure className="px-10 pt-10">
-          <img
-            src="https://i.ibb.co/rfpVsDW/438064958-3800097896889782-3370707451740923451-n.jpg"
-            alt="man"
-            className="rounded-xl"
-          />
-        </figure>
-        <div className="card-body items-center text-center">
-          <h2 className="card-title font-bold text-blue-700 ">Sakib Hasan</h2>
-          <p className="text-red-900 font-semibold">ID:412201000145</p>
-          <h2 className="text-orange-700 font-semibold">UI/UX designer</h2>
-        </div>
-      </div>
-      <div className="card bg-base-100 shadow-xl">
-        <figure className="px-10 pt-10">
-          <img
-            src="https://i.ibb.co/8sThhv1/439324527-418539524217058-2250240333214240199-n.jpg"
-            alt="man"
-            className="rounded-xl"
-          />
-        </figure>
-        <div className="card-body items-center text-center">
-          <h2 className="card-title font-bold text-blue-700 ">Antu Das</h2>
-          <p className="text-red-900 font-semibold">ID:412201000104</p>
-          <h2 className="text-orange-700 font-semibold">Market Researcher</h2>
-        </div>
-      </div>
-      <div className="card bg-base-100 shadow-xl">
-        <figure className="px-10 pt-10">
-          <img
-            src="https://i.ibb.co/vk8NrXL/437205603-453906100412063-8128251737337910028-n.jpg"
-            alt="man"
-            className="rounded-xl"
-          />
-        </figure>
-        <div className="card-body items-center text-center">
-          <h2 className="card-title font-bold text-blue-700 ">Sagor Chandara Das</h2>
-          <p className="text-red-900 font-semibold">ID:14220100029</p>
-          <h2 className="text-orange-700 font-semibold">Market Researcher</h2>
-        </div>
-      </div>
-      <div className="card bg-base-100 shadow-xl">
-        <figure className="px-10 pt-10">
-          <img
-            src="https://i.ibb.co/KhfnjLG/437045253-435518372495794-3024941369319247353-n.jpg"
-            alt="man"
-            className="rounded-xl"
-          />
-        </figure>
-        <div className="card-body items-center text-center">
-          <h2 className="card-title font-bold text-blue-700 ">Rashid Shahriar Shaon</h2>
-          <p className="text-red-900 font-semibold">ID:412201000161</p>
-          <h2 className="text-orange-700 font-semibold">Market Researcher</h2>
-        </div>
-      </div>
+
     </div>
     </div>
   );

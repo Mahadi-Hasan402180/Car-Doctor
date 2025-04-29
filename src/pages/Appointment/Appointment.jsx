@@ -24,7 +24,7 @@ const Appointment = () => {
           
         }
         console.log(booking);
-        fetch('https://car-doctor-server-dusky-theta.vercel.app/appointment', {
+        fetch('https://car-doctor-server-one-flame.vercel.app/appointment', {
 
       method:"POST",
 
