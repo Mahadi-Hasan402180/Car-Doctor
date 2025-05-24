@@ -38,7 +38,6 @@ https://github.com/Mahadi-Hasan402180/Car-Doctor/assets/115867660/02a1142e-c803-
 ![Capture2](https://github.com/Mahadi-Hasan402180/Car-Doctor/assets/115867660/232964fc-e490-4dd8-bed6-1281d9b2dd23)
 ![Capture14](https://github.com/Mahadi-Hasan402180/Car-Doctor/assets/115867660/17096df7-58c5-4ef8-aef5-31698bbb4371)
 ![Capture13](https://github.com/Mahadi-Hasan402180/Car-Doctor/assets/115867660/a9e5ffad-99bb-4868-9a74-5334958bf843)
-![Capture12](https://github.com/Mahadi-Hasan402180/Car-Doctor/assets/115867660/d2600726-46c7-417d-9a2a-17a0a02421fd)
 ![Capture10](https://github.com/Mahadi-Hasan402180/Car-Doctor/assets/115867660/0f09c6e1-fc78-4e3e-809c-b7c84121d4f6)
 ![Capture9](https://github.com/Mahadi-Hasan402180/Car-Doctor/assets/115867660/7fd4e302-4f55-4fa5-9e9b-ca02aa867ed8)
 ![Capture8](https://github.com/Mahadi-Hasan402180/Car-Doctor/assets/115867660/50d560b5-5d40-4e8b-916a-fc9d7d2a4d16)
