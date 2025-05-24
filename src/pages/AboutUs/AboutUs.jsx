@@ -72,7 +72,7 @@ const AboutUs = () => {
           />
         </figure>
         <div className="card-body items-center text-center">
-          <h2 className="card-title font-bold text-blue-700 ">Sanda Khatun</h2>
+          <h2 className="card-title font-bold text-blue-700 ">Mst.Sanda Khatun</h2>
           <p className="text-red-900 font-semibold">ID:41220100050</p>
           <h2 className="text-orange-700 font-semibold">UI/UX designer</h2>
         </div>

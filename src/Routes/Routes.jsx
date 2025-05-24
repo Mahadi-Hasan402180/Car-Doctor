@@ -12,6 +12,7 @@ import Appointment from "../pages/Appointment/Appointment";
 import Appointments from "../Appointments/Appointments";
 import UpdateAppo from "../Appointments/UpdateAppo";
 import Products from "../Products/Products";
+import CarDamageUpload from "../pages/CarDamageUpload/CarDamageUpload";
 
 
 
@@ -60,6 +61,11 @@ const router = createBrowserRouter([
         {
           path: "/contact",
           element:<Contact></Contact> ,
+        },
+
+        {
+          path: "/damage",
+          element:<CarDamageUpload></CarDamageUpload> ,
         },
 
         {
